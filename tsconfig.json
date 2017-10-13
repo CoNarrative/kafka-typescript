@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src",
+    "outDir": "lib",
+    "moduleResolution": "node",
+    "sourceMap": false,
+    "types": [
+      "node"
+    ],
+    "lib": [
+      "es2015"
+    ],
+    "declaration": true,
+    "target": "es5",
+    "typeRoots": [
+      "node_modules/@types"
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "kafka-typescript",
+  "version": "0.0.2",
+  "description": "Interface to node-rdkafka in Typescript",
+  "main": "lib/index.js",
+  "scripts": {
+    "prepare": "node_modules/.bin/tsc && rm -r lib/examples && mv lib/src/* lib && rm -r lib/src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "kafka",
+    "typescript"
+  ],
+  "author": "CoNarrative",
+  "license": "Apache 2.0",
+  "files": [
+    "lib"
+  ],
+  "dependencies": {
+    "node-rdkafka": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^8.0.28"
+  }
+}
